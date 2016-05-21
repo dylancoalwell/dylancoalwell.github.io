@@ -5,6 +5,7 @@ body {
 h1 {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background-image: url(banner.jpg);
+	border: 1px solid black;
 	color: #5c5c3d;
 	height: 200px;
 	width: 790px;
@@ -17,4 +18,36 @@ h1 {
 
 h2 {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div.influential {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.unicycle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#showcase {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:visited {
+	color: black;
 }
