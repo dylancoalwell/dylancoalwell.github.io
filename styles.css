@@ -67,3 +67,10 @@ a:hover {
 a:visited {
 	color: black;
 }
+
+@media screen and (max-width: 827px) {
+	h1 {
+		width: 60%;
+		height: 20%;
+	}
+}
